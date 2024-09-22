@@ -14,7 +14,7 @@ const Product = () => {
             <img className="absolute w-96 ml-56  -mt-[129px] z-40" src="/clothes-bottom-53OO5ML3.svg" alt="" />
 
             {/* White background placed under the image with text */}
-            <div className="absolute top-[300px] left-10 right-0 h-[490px]  bg-white z-0 mx-16 rounded-xl">
+            <div className="absolute top-[300px] left-10 right-0 h-[490px]   bg-white z-0 mx-16 rounded-xl">
                 <div className="flex justify-end px-28 py-20">
                 <div className="w-[450px] ">
                 <h1 className=" font-cerebi text-[32px] ">Easily add your design to a <br /> wide range of products</h1> 
@@ -74,6 +74,8 @@ const Product = () => {
                     <path d="M161.773 58.977a30 30 0 0 1-23.546 0L0 0h300L161.773 58.977z" fill="#f7f7f7" />
                 </svg>
             </div>
+
+   
 
 
 
