@@ -1,10 +1,10 @@
 
 const Banner = () => {
     return (
-        <div className="h-[612px] font-roboto  container mx-auto px-6 py-14 flex">
+        <div className="lg:h-[612px]  font-roboto  container mx-auto px-6 py-14 flex lg:flex-row flex-col ">
 
 <div className="text-[#17262b]">
-    <p className="text-[56px] font-cerebi font-bold mt-10">Create and sell <br /> custom products</p>
+    <p className="lg:text-[56px] text-[32px] font-cerebi font-bold mt-10">Create and sell <br /> custom products</p>
      
     <div className="space-y-2 mt-2">
     <p className="font-medium text-[#485256] text-base flex "> <img className="object-contain mr-3" src="/check-mark-EHPN4OB5.svg" alt="" />  100% Free to use</p>
@@ -23,11 +23,11 @@ const Banner = () => {
 
 
 
-   <img className="ml-20" src="/background-IAMAETLT (1).svg" alt="" />
+   <img className="lg:ml-20 lg:mt-0 mt-32" src="/background-IAMAETLT (1).svg" alt="" />
 
-   <img className="-ml-[500px] z-20 h-[300px] p-5 bg bg-white rounded-xl mt-10 border border-gray-100" src="/img_5.png" alt="" />
+   <img className="lg:-ml-[500px] -mt-80 z-20 lg:h-[300px] lg:w-72 w-44 p-5 bg bg-white rounded-xl lg:mt-10 border border-gray-100" src="/img_5.png" alt="" />
      
-     <div className="-ml-[150px]  h-[320px] w-[288px] p-5 bg bg-white rounded-xl mt-36 border border-gray-100" ></div>
+     <div className="lg:-ml-[150px] -mt-36 ml-24 lg:h-[320px] h-56 lg:w-[288px] w-44 p-5 bg bg-white rounded-xl lg:mt-36 border border-gray-100" ></div>
             
         </div>
     );
